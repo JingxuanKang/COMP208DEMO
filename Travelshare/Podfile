@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Travelshare' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Travel share
+   pod 'Closures'
+   pod 'SnapKit'
+   pod 'Reveal-SDK', '~> 19', :configurations => ['Debug']
+   pod 'Toast-Swift'
+#   pod 'Firebase/Analytics'
+   pod 'Kingfisher'
+   pod "ESPullToRefresh"
+   pod 'UITextView+Placeholder'
+
+end

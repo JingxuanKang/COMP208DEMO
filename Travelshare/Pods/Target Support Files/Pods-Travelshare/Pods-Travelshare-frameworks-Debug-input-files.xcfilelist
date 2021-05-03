@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-Travelshare/Pods-Travelshare-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Closures/Closures.framework
+${BUILT_PRODUCTS_DIR}/ESPullToRefresh/ESPullToRefresh.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${PODS_ROOT}/Reveal-SDK/RevealServer-19/iOS/RevealServer.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework
+${BUILT_PRODUCTS_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework
