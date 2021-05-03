@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FE6B715530932230C1EE910 /* Pods_Travelshare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E561DCCE49D25407BCD4B07B /* Pods_Travelshare.framework */; };
 		9E06E7E6263F1CE50095415D /* UserArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E06E7E5263F1CE40095415D /* UserArticleViewController.swift */; };
+		AA6C0752CA13AF88B0633A22 /* Pods_Travelshare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1FEFE829DB87D9364B518E /* Pods_Travelshare.framework */; };
 		DD23386F25E0353400573CCE /* ArticleImageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD23386E25E0353400573CCE /* ArticleImageCollectionView.swift */; };
 		DD23387325E03E7500573CCE /* ArticleActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD23387225E03E7500573CCE /* ArticleActionButton.swift */; };
 		DD3115AF25D49C5F0011645D /* CityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3115AE25D49C5E0011645D /* CityListViewController.swift */; };
@@ -52,11 +52,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0D52DE1840C31BFCE9ABC2B9 /* Pods-Travel share.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel share.release.xcconfig"; path = "Target Support Files/Pods-Travel share/Pods-Travel share.release.xcconfig"; sourceTree = "<group>"; };
-		95E36A988A73AA79D4F51BF9 /* Pods-Travelshare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travelshare.debug.xcconfig"; path = "Target Support Files/Pods-Travelshare/Pods-Travelshare.debug.xcconfig"; sourceTree = "<group>"; };
-		96D7E421170982A8F4C891BD /* Pods-Travelshare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travelshare.release.xcconfig"; path = "Target Support Files/Pods-Travelshare/Pods-Travelshare.release.xcconfig"; sourceTree = "<group>"; };
+		2F7610E100C95E394B9EF88F /* Pods-Travelshare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travelshare.debug.xcconfig"; path = "Target Support Files/Pods-Travelshare/Pods-Travelshare.debug.xcconfig"; sourceTree = "<group>"; };
+		6D1FEFE829DB87D9364B518E /* Pods_Travelshare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travelshare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CCB7AF7EAA693F3198FE95 /* Pods-Travelshare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travelshare.release.xcconfig"; path = "Target Support Files/Pods-Travelshare/Pods-Travelshare.release.xcconfig"; sourceTree = "<group>"; };
 		9E06E7E5263F1CE40095415D /* UserArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserArticleViewController.swift; sourceTree = "<group>"; };
-		C6C0793BFF86C2A2376E77A2 /* Pods-Travel share.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel share.debug.xcconfig"; path = "Target Support Files/Pods-Travel share/Pods-Travel share.debug.xcconfig"; sourceTree = "<group>"; };
 		DD23386E25E0353400573CCE /* ArticleImageCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleImageCollectionView.swift; sourceTree = "<group>"; };
 		DD23387225E03E7500573CCE /* ArticleActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleActionButton.swift; sourceTree = "<group>"; };
 		DD3115AE25D49C5E0011645D /* CityListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListViewController.swift; sourceTree = "<group>"; };
@@ -79,7 +78,6 @@
 		DDDFE54E25EA618F00955D8F /* PublishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishViewController.swift; sourceTree = "<group>"; };
 		DDF2800725D31CE200E844F8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		DDF2800A25D3EBD800E844F8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		E561DCCE49D25407BCD4B07B /* Pods_Travelshare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travelshare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1027B4B26149F6200F1E0AD /* UploadImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImagesView.swift; sourceTree = "<group>"; };
 		F1027B5026149FD200F1E0AD /* UploadImagesViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImagesViewCell.swift; sourceTree = "<group>"; };
 		F116589925D6B0CA00D8748D /* BaseCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionReusableView.swift; sourceTree = "<group>"; };
@@ -107,7 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FE6B715530932230C1EE910 /* Pods_Travelshare.framework in Frameworks */,
+				AA6C0752CA13AF88B0633A22 /* Pods_Travelshare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,18 +115,16 @@
 		22DFA205A5105535344240C9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C6C0793BFF86C2A2376E77A2 /* Pods-Travel share.debug.xcconfig */,
-				0D52DE1840C31BFCE9ABC2B9 /* Pods-Travel share.release.xcconfig */,
-				95E36A988A73AA79D4F51BF9 /* Pods-Travelshare.debug.xcconfig */,
-				96D7E421170982A8F4C891BD /* Pods-Travelshare.release.xcconfig */,
+				2F7610E100C95E394B9EF88F /* Pods-Travelshare.debug.xcconfig */,
+				85CCB7AF7EAA693F3198FE95 /* Pods-Travelshare.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		C3FB9C2C7AF89C7C115C7E49 /* Frameworks */ = {
+		40106E6A3701E8E692E65A35 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E561DCCE49D25407BCD4B07B /* Pods_Travelshare.framework */,
+				6D1FEFE829DB87D9364B518E /* Pods_Travelshare.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -139,7 +135,7 @@
 				DD5476C925D19D3C00256E07 /* Travelshare */,
 				DD5476C825D19D3C00256E07 /* Products */,
 				22DFA205A5105535344240C9 /* Pods */,
-				C3FB9C2C7AF89C7C115C7E49 /* Frameworks */,
+				40106E6A3701E8E692E65A35 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -295,11 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD5476DB25D19D3C00256E07 /* Build configuration list for PBXNativeTarget "Travelshare" */;
 			buildPhases = (
-				9C2921E65711FD53515FAA30 /* [CP] Check Pods Manifest.lock */,
+				B8F1B532EB348EA01AAB97A4 /* [CP] Check Pods Manifest.lock */,
 				DD5476C325D19D3C00256E07 /* Sources */,
 				DD5476C425D19D3C00256E07 /* Frameworks */,
 				DD5476C525D19D3C00256E07 /* Resources */,
-				880349B13B867D2161B1AA4F /* [CP] Embed Pods Frameworks */,
+				37B96ACDF96A09E3BB0DFA66 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -357,7 +353,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		880349B13B867D2161B1AA4F /* [CP] Embed Pods Frameworks */ = {
+		37B96ACDF96A09E3BB0DFA66 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,7 +370,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Travelshare/Pods-Travelshare-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9C2921E65711FD53515FAA30 /* [CP] Check Pods Manifest.lock */ = {
+		B8F1B532EB348EA01AAB97A4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -575,14 +571,14 @@
 		};
 		DD5476DC25D19D3C00256E07 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95E36A988A73AA79D4F51BF9 /* Pods-Travelshare.debug.xcconfig */;
+			baseConfigurationReference = 2F7610E100C95E394B9EF88F /* Pods-Travelshare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96ZHHQQWL6;
 				INFOPLIST_FILE = "$(SRCROOT)/Travelshare/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -596,14 +592,14 @@
 		};
 		DD5476DD25D19D3C00256E07 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96D7E421170982A8F4C891BD /* Pods-Travelshare.release.xcconfig */;
+			baseConfigurationReference = 85CCB7AF7EAA693F3198FE95 /* Pods-Travelshare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96ZHHQQWL6;
 				INFOPLIST_FILE = "$(SRCROOT)/Travelshare/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
