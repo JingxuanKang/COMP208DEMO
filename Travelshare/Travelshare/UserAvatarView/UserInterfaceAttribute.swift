@@ -22,14 +22,14 @@ class UserInterfaceAttribute: BaseView {
     
     enum UserAttributeType: String {
         case email = "Email"
-        case phoneNumber = "Phone Number"
+        case photoNumber = "PhoneNumber"
         case liked = "Liked"
         case records = "Records"
         case birthday = "Brithday"
         case favourites = "Favourites"
     }
     
-    var dataSource: [UserAttributeType] = [.email, .phoneNumber, .birthday, .favourites, .liked, .records,]
+    var dataSource: [UserAttributeType] = [.email, .photoNumber, .birthday, .favourites, .liked, .records,]
     
     private class var cellHeight: CGFloat {
         return formatX(44)
@@ -97,7 +97,7 @@ extension UserInterfaceAttribute: UICollectionViewDataSource, UICollectionViewDe
             cell.fillData(type.rawValue + ":" + (user?.email ?? ""))
             cell.leftimageView.image = UIImage(named: "email")?.colored(.black)
             cell.imageView.isHidden = false
-        case .phoneNumber:
+        case .photoNumber:
             cell.fillData(type.rawValue + ":" + (user?.phone_number ?? ""))
             cell.leftimageView.image = UIImage(named: "telephone")?.colored(.black)
             cell.imageView.isHidden = false
@@ -125,24 +125,40 @@ extension UserInterfaceAttribute: UICollectionViewDataSource, UICollectionViewDe
         let type = dataSource[indexPath.row]
         switch type {
         case .favourites:
+            guard AppLogic.shared.user != nil else {
+                self.makeToast("Please login at first")
+                return
+            }
+            
             let vc = UserArticleViewController(type: .favourite)
             vc.hidesBottomBarWhenPushed = true
             self.currentViewController?.navigationController?.pushViewController(vc, animated: true)
             
         case .liked:
+            guard AppLogic.shared.user != nil else {
+                self.makeToast("Please login at first")
+                return
+            }
+
             let vc = UserArticleViewController(type: .liked)
             vc.hidesBottomBarWhenPushed = true
             self.currentViewController?.navigationController?.pushViewController(vc, animated: true)
             
         case .records:
+            guard AppLogic.shared.user != nil else {
+                self.makeToast("Please login at first")
+                return
+            }
+
             let vc = UserArticleViewController(type: .record)
             vc.hidesBottomBarWhenPushed = true
             self.currentViewController?.navigationController?.pushViewController(vc, animated: true)
+            
         case .email:
             let vc = EditUserInfoViewController(type: .email)
             self.currentViewController?.present(vc, animated: true, completion: nil)
             
-        case .phoneNumber:
+        case .photoNumber:
             let vc = EditUserInfoViewController(type: .phoneNumber)
             self.currentViewController?.present(vc, animated: true, completion: nil)
 

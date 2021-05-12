@@ -70,7 +70,6 @@ class Api {
             do {
                 if let map = try JSONSerialization.jsonObject(with: data!, options: .allowFragments) as? [String: Any] {
                     if let errorCode = map["errno"] as? Int, errorCode == 0 {
-
                         handler(.success(""))
                         return
                     }

@@ -9,7 +9,7 @@ import UIKit
 
 class UploadImagesView: BaseView, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
-    static let MaxImageCount: Int = 9
+    static let MaxImageCount: Int = 2
     static let CellSize: CGFloat = 80
     
     var dataSource: [UIImage] = .init()

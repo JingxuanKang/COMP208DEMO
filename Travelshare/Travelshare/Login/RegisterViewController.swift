@@ -91,8 +91,10 @@ class RegisterViewController: BaseViewController, UITextFieldDelegate {
                 switch result {
                 case .failure(let error):
                     self.view.makeToast(error.localizedDescription)
+                    
                 case .success(_):
                     (UIApplication.shared.delegate as! AppDelegate).changeRootToVC(LoginViewController())
+                    UIApplication.shared.keyWindow?.makeToast("Register Successfully!")
                 }
             }
         }
@@ -112,15 +114,11 @@ class RegisterViewController: BaseViewController, UITextFieldDelegate {
         view.autocorrectionType = .no
         view.spellCheckingType = .no
         view.returnKeyType = .continue
-        view.isSecureTextEntry=true
         view.enablesReturnKeyAutomatically = true
         view.delegate = self
         return view
     }()
     private lazy var UsernametextField: UITextField = {
-        
-
-
         let view = UITextField()
         view.backgroundColor = .white
         view.attributedPlaceholder = NSAttributedString(string: "Username", attributes: [
@@ -153,8 +151,6 @@ class RegisterViewController: BaseViewController, UITextFieldDelegate {
         button.backgroundColor = UIColor.init(hex: 0xcfcfcf)
         button.setTitle("Register", for: .normal)
         button.addTarget(self, action: #selector(RegisterAction), for: .touchUpInside)
-        
-        
         return button
     }()
     

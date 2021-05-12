@@ -112,7 +112,6 @@ class LoginViewController: BaseViewController, UITextFieldDelegate {
         view.autocorrectionType = .no
         view.spellCheckingType = .no
         view.returnKeyType = .continue
-        view.isSecureTextEntry=true
         view.enablesReturnKeyAutomatically = true
         view.delegate = self
         return view
@@ -123,7 +122,7 @@ class LoginViewController: BaseViewController, UITextFieldDelegate {
         view.contentMode = .scaleAspectFill
 //        view.backgroundColor = .red
         view.isUserInteractionEnabled = true
-        view.image = UIImage.init(named: "login")
+        view.image = UIImage.init(named: "system")
         return view
     }()
     
